@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+    .container {
+        max-width: 343px;
+        height: 611px;
+        flex-direction: column;
+    }
+
+    .img-container {
+        height: 240px;
+        width: 343px;
+        border-radius: 10px, 10px, 0px, 0px;
+        background-image: url('../images/image-product-mobile.jpg');
+    }
+
+    .description {
+        padding: 24px;
+    }
+
+    .text-description {
+        width: 255px;
+    }
+
+    .subtitle {
+        margin-bottom: 12px;
+    }
+
+    .title {
+        margin-bottom: 16px;
+        width: 295px;
+    }
+
+    .productDescription {
+        margin-bottom: 24px;
+    }
+
+    .value {
+        margin-bottom: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F2EAE2;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    flex-direction: row;
+    margin: 10% auto;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.description {
+    width: 300px;
+    height: 450px;
+    padding: 32px;
+}
+
+.text-desription {
+    max-width: 236px;
+}
+
+.img-container {
+    width: 300px;
+    height: 450px;
+    background-image: url('/images/image-product-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    line-height: 14.63px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #6C7289;
+    
+
+}
+.title {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 24px;
+    color: #1C232B;
+}
+
+.productDescription {
+    margin-bottom: 29px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.value {
+    display: flex;
+    gap: 19px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.onSale {
+    font-size: 32px;
+    line-height: 32px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #3D8168;
+}
+
+.original-value {
+    font-size: 13px;
+    line-height: 23px;
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+    color: #6C7289;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 236px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #3D8168;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+    /* text */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+button img {
+    margin-right: 11.61px;
+}
+
+button:hover {
+    background: #1A4032;
+}
